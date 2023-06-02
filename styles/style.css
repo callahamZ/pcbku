@@ -1,0 +1,280 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+nav {
+  /* position: fixed; */
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  padding-left: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logoimg {
+  width: 50px;
+  height: 50px;
+}
+
+.logo a {
+  margin: auto;
+}
+
+.logo h1 {
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  padding-right: 50px;
+  justify-content: space-between;
+  width: 30vw;
+  list-style: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
+
+nav ul li :hover {
+  color: #01907e;
+  text-shadow: 4px 4px 1px 4px grey;
+}
+/* END NAVBAR */
+
+/* JUMBOTRON */
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  /* border: solid 1px black; */
+}
+
+.jbt-title {
+  color: black;
+  font-size: 2.5vw;
+  margin-left: 100px;
+}
+
+.jbt-subtitle {
+  width: 35%;
+  font-size: 1.3vw;
+  margin-left: 100px;
+}
+
+.orderbutton {
+  display: inline-block;
+  border: solid 5px #01907e;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.33vw;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-left: 100px;
+  text-align: center;
+  padding: 2.5vh 2vw;
+  background-color: #01907e;
+  box-shadow: 2px 2px 4px grey;
+  transition: all 0.2s ease-in-out;
+}
+
+.orderbutton:hover {
+  background-color: white;
+  box-shadow: 6px 6px 4px grey;
+  color: #01907e;
+}
+
+.gambarhiasan {
+  position: absolute;
+  max-width: 55%;
+  top: 0;
+  right: 0;
+  margin-top: 6%;
+  z-index: -1;
+}
+/* AKHIR JUMBOTRON */
+
+/* AWAL SECTION 1 */
+.content1 {
+  height: 62vh;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 20vw;
+  height: 60vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 4px 1px black;
+  transition: all 0.1s ease-in-out;
+}
+
+.card:hover {
+  /* height: 58vh;
+  width: 19vw; */
+  box-shadow: 0px 0px 20px #01907e;
+}
+
+.cardlogo {
+  align-self: center;
+  max-width: 14vh;
+  max-height: auto;
+  margin: 4vh;
+}
+
+.subcard {
+  overflow: hidden;
+  background-color: #01907e;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.subcard h1 {
+  padding: 1vh 2vh;
+  height: 20%;
+}
+
+.subcard p {
+  align-self: center;
+  padding: 1vh 4vh;
+}
+/* AKHIR SECTION 1 */
+
+/* AWAL SECTION 2 */
+.content2 {
+  margin-top: 10vh;
+  background-color: rgb(233, 233, 233);
+  height: 110vh;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.content2 h1 {
+  margin-top: 10vh;
+  padding-top: 40px;
+  align-self: center;
+  font-size: 2.5rem;
+}
+
+.content2 p {
+  color: rgb(50, 50, 50);
+}
+
+.content2 img {
+  margin-top: 6vh;
+  max-width: 40%;
+  align-self: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px 1px black;
+}
+/* AKHIR SECTION 2 */
+
+/* AWAL SECTION 3 */
+.content3 {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 100px;
+}
+
+.content3 img {
+  max-width: 30vw;
+  border-radius: 10px;
+}
+
+.subcontent3 {
+  max-width: 30vw;
+}
+
+.CS {
+  margin-top: 30vh;
+  max-width: 14vw;
+  max-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+}
+
+.CS img {
+  max-width: 9vh;
+  max-height: 9vh;
+}
+
+.CS a {
+  margin-left: 2vw;
+  padding: 1vh 2vw;
+  border-radius: 5px;
+  font-weight: bold;
+  border: solid 5px #01907e;
+  color: white;
+  background-color: #01907e;
+  transition: all 0.1s ease-in-out;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.CS a:hover {
+  background-color: white;
+  box-shadow: 6px 6px 4px grey;
+  color: #01907e;
+}
+/* AKHIR SECTION 3 */
+
+/* AWAL FOOTER */
+footer {
+  background-color: rgb(56, 56, 56);
+  color: white;
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5vh;
+}
+
+footer h2 {
+  margin: 0;
+  font-size: 2vw;
+}
+
+footer p {
+  margin: 20px 0px;
+  font-size: 1.2vw;
+  font-stretch: expanded;
+}
+
+footer h1 {
+  font-size: 2vw;
+}
+/* AKHIR FOOTER */
